@@ -2,8 +2,6 @@
 
 Implements a simple drawing api
 
-TODO: Add a representative image for your project here
-
 ## How to build
 
 *Windows*
@@ -45,8 +43,21 @@ canvas-drawer/build $ ../bin/draw_art
 
 ## Supported primitives
 
-TODO: Document the custom primitives supported by your canvas class
+My class supports points, lines, triangles and rectangles. 
+The primitives that can be filled have the option to be filled
+or outlined, and the images have the capacity for difference blending 
+with a color of the user's choice.
 
 ## Results
 
-TODO: Show artworks using your class
+By plotting random white points on a black background,
+then placing randomly generated rectangles with random colors
+and random filling and outlining, I created a new take on existence
+in the universe: Rectangles in Space.
+
+![art not found](rectangles_in_space.png)
+
+To create this next piece, I added difference blending with a random 
+shade of blue (r and g are random, b = 255).
+
+![art not found](rectangles_difference_blend.png)
